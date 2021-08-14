@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#title {
+  text-align: center;
+  font-size: xxx-large;
+}
+.pokemon_tab {
+  border: 1px solid;
+  width: 20rem;
+  margin: 4px;
+  cursor: pointer;
+}
+#List {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  float: left;
+}
+
+.types {
+  width: 45%;
+  margin: 5px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: x-large;
+  float: left;
+}
+
+.pokemon_title {
+  text-align: center;
+  font-size: xx-large;
+}
+
+#panel {
+  left: 70rem;
+  width: 22%;
+  float: left;
+  height: auto;
+  border: 1px solid;
+  position: fixed;
+}
+
+#load_bttn {
+  width: 61rem;
+  height: 4rem;
+  border-radius: 14px;
+  font-size: xx-large;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+td{
+  border: 1px solid black !important;
+  text-align: center;
+}
